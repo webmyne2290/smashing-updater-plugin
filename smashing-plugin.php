@@ -2,7 +2,7 @@
 /*
 	Plugin Name: Smashing Plugin
 	Description: This is for updating your Wordpress plugin.
-	Version: 2.0.0
+	Version: 1.0.0
 	Author: Webmyne
 	Author URI: http://www.webmyne.com
 */
