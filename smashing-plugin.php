@@ -16,7 +16,6 @@ $updater->set_repository( 'smashing-updater-plugin' );
 /*
 	$updater->authorize( 'abcdefghijk1234567890' ); // Your auth code goes here for private repos
 */
-$updater->authorize( '6a80d2301c6280a13ee683869d8205850b244ae6' ); // Your auth code goes here for private repos
 $updater->initialize();
 
 
