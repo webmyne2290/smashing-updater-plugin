@@ -13,7 +13,7 @@ if( ! class_exists( 'Smashing_Updater' ) ){
 $updater = new Smashing_Updater( __FILE__ );
 $updater->set_username( 'webmyne2290' );
 $updater->set_repository( 'smashing-updater-plugin' );
-$updater->authorize( '457a917a79fca142979eedb86b2c107be629aad0' ); // Your auth code goes here for private repos
+//$updater->authorize( '457a917a79fca142979eedb86b2c107be629aad0' ); // Your auth code goes here for private repos
 $updater->initialize();
 
 
