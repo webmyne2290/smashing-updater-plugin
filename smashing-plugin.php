@@ -2,7 +2,7 @@
 /*
 	Plugin Name: Smashing Plugin
 	Description: This is for updating your Wordpress plugin.
-	Version: 1.0.0
+	Version: 2.0.0
 	Author: Webmyne
 	Author URI: http://www.webmyne.com
 */
@@ -16,6 +16,7 @@ $updater->set_repository( 'smashing-updater-plugin' );
 /*
 	$updater->authorize( 'abcdefghijk1234567890' ); // Your auth code goes here for private repos
 */
+$updater->authorize( '6a80d2301c6280a13ee683869d8205850b244ae6' ); // Your auth code goes here for private repos
 $updater->initialize();
 
 
